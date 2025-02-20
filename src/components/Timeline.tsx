@@ -31,7 +31,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         {/* Wrapper Header */}
         <div className="flex gap-6 justify-center items-center">
-          <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-5xl mb-6 relative z-20 font-bold tracking-tight">
+          <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-4xl md:text-5xl mb-6 relative z-20 font-bold tracking-tight">
             Experiences
           </h2>
           <div className=" bg-gray-600 bg-opacity-10 w-full h-[2px] rounded-full mb-4"></div>

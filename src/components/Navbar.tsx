@@ -29,7 +29,7 @@ export default function Navbar() {
       </motion.a>
 
       {/* Menu for Desktop */}
-      <nav className="hidden lg:flex gap-10 text-gray-700 font-semibold py-4 px-5 rounded-full fixed top-12 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white/30 backdrop-blur-md bg-opacity-50 shadow-md shadow-gray-300">
+      <nav className="hidden lg:flex gap-10 text-gray-700 font-medium py-4 px-5 rounded-full fixed top-12 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white/30 backdrop-blur-md bg-opacity-50 shadow-md shadow-gray-200">
         {menuItems.map((item, index) => (
           <a
             key={index}

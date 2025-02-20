@@ -1,4 +1,3 @@
-import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 import ButtonWithIcon from "./ButtonWithIcon";
@@ -24,9 +23,9 @@ export const AboutMe = ({
     setActive((prev) => (prev + 1) % testimonials.length);
   };
 
-  const handlePrev = () => {
-    setActive((prev) => (prev - 1 + testimonials.length) % testimonials.length);
-  };
+  // const handlePrev = () => {
+  //   setActive((prev) => (prev - 1 + testimonials.length) % testimonials.length);
+  // };
 
   const isActive = (index: number) => {
     return index === active;
