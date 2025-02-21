@@ -21,7 +21,7 @@ export default function Experience(props: ExperienceProps) {
     <div className="flex flex-row gap-5">
       <img
         src={props.image}
-        alt="maxy-logo"
+        alt={props.company}
         className="w-12 h-12 md:w-16 md:h-16 shadow-sm rounded-md border border-input"
       />
       <div className="w-full">

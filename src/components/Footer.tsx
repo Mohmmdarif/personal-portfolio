@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Mail } from "lucide-react";
+import { Github, Instagram, Linkedin, Mail } from "lucide-react";
 // import { FaTwitter, FaLinkedin, FaDribbble, FaInstagram } from "react-icons/fa";
 import ButtonWithIcon from "./ButtonWithIcon";
 
@@ -37,6 +37,12 @@ export default function Footer() {
             className="hover:text-gray-700"
           >
             <Linkedin />
+          </a>
+          <a
+            href="https://github.com/mohmmdarif"
+            className="hover:text-gray-700"
+          >
+            <Github />
           </a>
           <a
             href="https://www.instagram.com/mohmmdarif_"
